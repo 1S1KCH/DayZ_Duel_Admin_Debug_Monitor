@@ -16,7 +16,7 @@
 * Add this line:<br/>
 <code> player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";</code>
 <br/><br/>
-That's all you need to edit in your init.sqf, after you've made those changes to<br/>
+That's all you need to edit in your init.sqf, after you've made those changes<br/>
 that part of the document should look something like this:
 <br/><br/>
 <pre><code> //Load in compiled functions
