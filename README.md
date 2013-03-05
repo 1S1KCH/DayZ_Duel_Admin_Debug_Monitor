@@ -47,7 +47,7 @@ So adding a new UID to the above example would look like this ["11111","22222","
 If you want to see what the non-admin debug monitor looks like, then simply ommit your UID from the list.  
 Only UID's listed will get the Admin debug monitor. Either SCRL+LCK or the H key should bring it up. 
 
-Any questions or comments about this version to: urbanskaters@gmail.com
+Any questions or comments about this version to: urbanskaters at gmail dot com
 
 If you feel brave and want to try new variables, then visit (for a list of useful commands): 
 http://community.bistudio.com/wiki/Category:Scripting_Commands_ArmA2
