@@ -63,3 +63,5 @@ Unfortunately I can't provide support for any changes you make to this script.
 ##Credits:
 
 Credit to P1-Kashwak for letting me modify and republish his original project :)
+The original Project page by P1-Kashwak can be found here: <br/>
+http://opendayz.net/index.php?threads/dayz-debug-monitor.8256/
