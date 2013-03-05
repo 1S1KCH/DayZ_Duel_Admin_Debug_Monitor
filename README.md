@@ -62,6 +62,16 @@ Unfortunately I can't provide support for any changes you make to this script.
 
 ##Credits:
 
-Credit to P1-Kashwak for letting me modify and republish his original project :)
+Credit to P1-Kashwak for letting me modify and republish his original project :)<br/>
 The original Project page by P1-Kashwak can be found here: <br/>
 http://opendayz.net/index.php?threads/dayz-debug-monitor.8256/
+
+##About Nomadic Hayward:
+
+Hayward is a WordPress consultant, IT Lecturer and Charity Worker living in London.  He calls himself Nomadic
+Hayward because that's where his life is heading, he has long since given up doing anything just for the money 
+and now focuses on charity work, teaching people how to set up websites for free, tinkering with code and planning 
+his escape in 2015 when his Nomadic lifestyle should be well underway.  He believes in open source projects with a 
+real passion and feels that people shouldn't need to charge for doing the things they love doing, as this takes away 
+from the pleasure of doing it.  He dislikes greedy people who only do something for the money and call him what you like 
+but he wants to see a world where more people simply do the things they love, purely for the community not the profit! 
