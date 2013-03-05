@@ -1,16 +1,16 @@
 ##Detailed instructions for editing your init.sqf file (Trigger Version)
 
 * This is what you need to edit YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
-* Comment out this line:<br/>
+* Locate the //Load in Compiled functions and comment out the following line:<br/>
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functionscall<br/>
 * So it looks like ths:<br/>
-//call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";  			//Compile regular functions<br/>
+// call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";  			//Compile regular functions<br/>
 * Then right underneath add this line:<br/>
 call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regular functions<br/>
 * Right after this line:<br/>
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";<br/>
 * Add this line:<br/>
-player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";
+playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";
 <br/><br/>
 That's all you need to edit in your init.sqf, after you've made those changes that part of the document should look something like this:
 <br/>
