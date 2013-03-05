@@ -65,7 +65,7 @@ call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regula
 * Add this line:<br/>
 player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";
 <br/><br/>
-That's all you need to edit in your init.sqf, after you've made those changes that part of the document should<br/>look something like this:
+That's all you need to edit in your init.sqf, after you've made those changes<br/>that part of the document should look something like this:
 <br/>
 <pre><code> //Load in compiled functions
   //call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
@@ -96,7 +96,7 @@ call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regula
 * Add this line:<br/>
 playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";
 <br/><br/>
-That's all you need to edit in your init.sqf, after you've made those changes that part of the document should<br/>look something like this:
+That's all you need to edit in your init.sqf, after you've made those changes<br/>that part of the document should look something like this:
 <br/>
 <br/>
 <pre><code> //Load in compiled functions
