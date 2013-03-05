@@ -52,7 +52,7 @@ Only UID's listed will get the Admin debug monitor. Either SCRL+LCK or the H key
 Any questions or comments about this version to: urbanskaters at gmail dot com
 
 If you feel brave and want to try new variables, then visit (for a list of useful commands): 
-http://community.bistudio.com/wiki/Category:Scripting_Commands_ArmA2
+http://community.bistudio.com/wiki/Category:Scripting_Commands_ArmA2 <br/>
 Unfortunately I can't provide support for any changes you make to this script.  
 
 ##Credits:
