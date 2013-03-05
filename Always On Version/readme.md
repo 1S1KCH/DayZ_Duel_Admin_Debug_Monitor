@@ -7,7 +7,7 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";
 // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
 * then right underneath it on the next line, add this:<br/>
 call compile preprocessFileLineNumbers "debug\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
-Comment out this line:<br/>
+* Now comment out this line:<br/>
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functions
 * Then right underneath add this line:<br/>
 call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regular functions
