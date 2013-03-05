@@ -29,7 +29,7 @@ I cannot gaurantee that it will work with any other version, though it should wo
 
 NB: These instructions assume you already know how to unpack your mission.pbo, if not please Google for more information.
 
-First things first, merge the included init.sqf with your own mission init.sqf file (remember to do the Instance Number). 
+First things first, merge the included init.sqf with your own mission init.sqf file (remember to change the Instance Number). 
 
 You DO NOT need the mission.sqm or description.ext files, these are just to complete the mission folder structure.
 You should have your own, but if you haven't then use these instead (they only work with Chernarus though)
@@ -81,6 +81,9 @@ That's all you need to edit in your init.sqf, after you've made those changes<br
   "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
   player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";</code</pre>
 
+<br/><br/>
+Don't forget to change your Instance number (at the top of your init file).
+<br/><br/>
 
 ##Detailed instructions for editing your init.sqf file (Trigger Version)
 
@@ -111,7 +114,9 @@ That's all you need to edit in your init.sqf, after you've made those changes<br
   "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
   playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";</code></pre>
 
-
+<br/><br/>
+Don't forget to change your Instance number (at the top of your init file).
+<br/><br/>
 
 ##More Info:
 
