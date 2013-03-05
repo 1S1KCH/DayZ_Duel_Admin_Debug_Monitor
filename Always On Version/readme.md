@@ -1,6 +1,6 @@
 ##Detailed instructions for editing your init.sqf (Always on Version)
 
-* This is what you need to edit YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
+* This is what you need to edit in YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
 * Locate the //Load in Compiled functions and comment out the following line:<br/>
 call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";  			//Initilize the Variables (IMPORTANT: Must happen very early)
 * and comment it out so it looks like this:<br/>
