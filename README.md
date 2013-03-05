@@ -22,7 +22,7 @@ If you do not understand any of my instructions below, then please contact me: u
 
 ##Version requirements
 
-This debug monitor has been tested with Chernarus DayzCode V1.7.6.1
+This debug monitor has been tested with Chernarus using DayzCode V1.7.6.1
 I cannot gaurantee that it will work with any other version, though it should work with other maps.
 
 ##Instructions
