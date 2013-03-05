@@ -51,7 +51,7 @@ So adding a new UID to the above example would look like this ["11111","22222","
 
 * This is what you need to edit in YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
 * Don't forget to change your Instance number (at the top of your init file). 
-* Locate the //Load in Compiled functions and comment out the following line:<br/>
+* Locate the //Load in Compiled functions line:<br/>
 <code>  call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";  			//Initilize the Variables (IMPORTANT: Must happen very early)</code>
 * and comment it out so it looks like this:<br/>
 <code>  // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)</code>
