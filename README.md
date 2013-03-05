@@ -35,11 +35,11 @@ For the Trigger Version: debug\playerstats.sqf (line 13)
   and
 For the Always On Version: debug\player_spawn_2.sqf (line 279)
 
-Look for this code on those lines: if ((getPlayerUID vehicle player) in ["25517190","24681"])
+Look for this code on those lines: if ((getPlayerUID vehicle player) in ["11111","222222"])
 
 And change the UIDs to those of yours and your admin(s). 
 To add more UIDS simply put a comma at the end of the last UID and add a UID in brackets..
-So adding a new UID to the above example would look like this ["25517190","24681","998877"]
+So adding a new UID to the above example would look like this ["11111","22222","33333"]
 
 #######
 
