@@ -9,7 +9,10 @@ the regular version (non-admin), It is kept up to date by Nomadic Hayward (aka U
 NON-admin user logs in they will see the debug monitor on the left (see screenshot above) and when an Admin
 logs in (assuming you've put their UID in the list as explained below), they will see the extended debug monitor.
 
-This version is for Chernarus, but should also work with other maps (back up your original files before testing).
+* The Always on version will be on ALL the time. 
+* The Trigger version will only come on when you press your Debug Monitor hotkey, and fades after about 30 seconds.
+
+Both versions are for Chernarus but should also work with other maps (back up your original files before testing).
 
 I accept no responsibility for any damage or downtime this script may cuase to your server.  
 The script has been tested and confirmed to be working by both admins and regular users on my server.
@@ -17,7 +20,7 @@ If you do not understand any of my instructions below, then please contact me: u
 
 ##Version requirements
 
-This debug montitor has been tested with Chernarus DayzCode V1.7.6.1
+This debug monitor has been tested with Chernarus DayzCode V1.7.6.1
 I cannot gaurantee that it will work with any other version, though it should work with other maps.
 
 ##Instructions
