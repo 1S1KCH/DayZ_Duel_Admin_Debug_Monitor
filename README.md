@@ -4,7 +4,7 @@
 =============================
 * V1.1
 
-The DayZ Duel Admin Debug Monitor gives admins a special extended debug monitor while giving normal players 
+The DayZ Duel Admin Debug Monitor (remember you saw it here first) gives admins a special extended debug monitor while giving normal players 
 the regular version (non-admin), It is kept up to date by Nomadic Hayward (aka UrbanSkaters).  When a regular
 NON-admin user logs in they will see the debug monitor on the left (see screenshot above) and when an Admin
 logs in (assuming you've put their UID in the list as explained below), they will see the extended debug monitor.
