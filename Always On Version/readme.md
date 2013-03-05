@@ -1,20 +1,20 @@
 ##Detailed instructions for editing your init.sqf (Always on Version)
 
 * This is what you need to edit in YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
-* Locate the //Load in Compiled functions and comment out the following line:<br/>
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";  			//Initilize the Variables (IMPORTANT: Must happen very early)
+* Locate the //Load in Compiled functions and just below comment out the following line:<br/>
+<code> call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";  			//Initilize the Variables (IMPORTANT: Must happen very early)</code>
 * so it looks like this:<br/>
-// call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
+<code> // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)</code>
 * then right underneath it on the next line, add this:<br/>
-call compile preprocessFileLineNumbers "debug\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
+<code> call compile preprocessFileLineNumbers "debug\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)</code>
 * Now comment out this line:<br/>
-call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functions
+<code> call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functions</code>
 * Then right underneath add this line:<br/>
-call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regular functions
+<code> call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regular functions</code>
 * Right after this line:<br/>
-"filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
+<code> "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";</code>
 * Add this line:<br/>
-player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";
+<code> player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";</code>
 <br/><br/>
 That's all you need to edit in your init.sqf, after you've made those changes that part of the document should look something like this:
 <br/><br/>
