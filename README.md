@@ -27,15 +27,15 @@ NB: These instructions assume you already know how to unpack your mission.pbo, i
 First things first, merge the included init.sqf with your own mission init.sqf file (remember to do the Instance Number). 
 
 You DO NOT need the mission.sqm or description.ext files, these are just to complete the mission folder structure.
-You should have your own, but if you haven't use these instead (they only work with Chernarus though)
+You should have your own, but if you haven't then use these instead (they only work with Chernarus though)
 
-Copy the debug folder and contents to your mission folder, along with the merged init.sqf (if you haven't done already)
+Copy the debug folder and contents to your mission folder, along with the merged init.sqf (if you haven't done so already)
 
 You will need to make changes to the following file, depending on which version you're using:
 
-For the Trigger Version: debug\playerstats.sqf (line 13)
+For the Trigger Version: debug\playerstats.sqf (near line 13)
   and
-For the Always On Version: debug\player_spawn_2.sqf (line 279)
+For the Always On Version: debug\player_spawn_2.sqf (near line 279)
 
 Look for this code on those lines: if ((getPlayerUID vehicle player) in ["11111","222222"])
 
