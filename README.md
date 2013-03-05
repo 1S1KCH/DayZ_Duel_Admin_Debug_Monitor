@@ -9,7 +9,9 @@ the regular version (non-admin), It is kept up to date by Nomadic Hayward (aka U
 NON-admin user logs in they will see the debug monitor on the left (see screenshot above) and when an Admin
 logs in (assuming you've put their UID in the list as explained below), they will see the extended debug monitor.
 
-* The Always on version will be on ALL the time. 
+There are two versions: 
+
+* The Always on version will stay on ALL the time. 
 * The Trigger version will only come on when you press your Debug Monitor hotkey, and fades after about 30 seconds.
 
 Both versions are for Chernarus but should also work with other maps (back up your original files before testing).
