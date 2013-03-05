@@ -2,7 +2,7 @@
 
 * This is what you need to edit YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
 * Locate the //Load in Compiled functions and comment out the following line:<br/>
-  call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functionscall<br/>
+ <code> call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functionscall</code>
 * So it looks like ths:<br/>
   // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";  			//Compile regular functions<br/>
 * Then right underneath add this line:<br/>
