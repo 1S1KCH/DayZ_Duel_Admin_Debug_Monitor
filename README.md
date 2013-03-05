@@ -47,7 +47,7 @@ And change the UIDs to those of yours and your admin(s).
 To add more UIDS simply put a comma at the end of the last UID and add a UID in brackets..
 So adding a new UID to the above example would look like this ["11111","22222","33333"]
 
-##Detailed instructions for editing in your init.sqf (Always on Version)
+##Detailed instructions for editing your init.sqf (Always on Version)
 
 * This is what you need to edit YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
 * Locate the //Load in Compiled functions and comment out the following line:<br/>
