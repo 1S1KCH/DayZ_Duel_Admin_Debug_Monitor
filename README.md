@@ -16,7 +16,7 @@ There are two versions:
 
 Both versions are for Chernarus but should also work with other maps (back up your original files before testing).
 
-I accept no responsibility for any damage or downtime this script may cuase to your server.  
+I accept no responsibility for any damage or downtime this script may cuase to your server. (please backup first)  
 The script has been tested and confirmed to be working by both admins and regular users on my server.
 If you do not understand any of my instructions below, then please contact me: urbanskaters@gmail.com
 
