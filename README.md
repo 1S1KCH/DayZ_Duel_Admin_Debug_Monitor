@@ -38,11 +38,10 @@ Copy the debug folder and contents to your mission folder, along with the merged
 
 You will need to make changes to the following file, depending on which version you're using:
 
-For the Trigger Version: debug\playerstats.sqf (near line 13)
-  and
-For the Always On Version: debug\player_spawn_2.sqf (near line 279)
+* For the Trigger Version: debug\playerstats.sqf (near line 13)
+* For the Always On Version: debug\player_spawn_2.sqf (near line 279)
 
-Look for this code on those lines: if ((getPlayerUID vehicle player) in ["11111","222222"])
+Look for this code on those lines: <i>if ((getPlayerUID vehicle player) in ["11111","222222"])</i>
 
 And change the UIDs to those of yours and your admin(s). 
 To add more UIDS simply put a comma at the end of the last UID and add a UID in brackets..
