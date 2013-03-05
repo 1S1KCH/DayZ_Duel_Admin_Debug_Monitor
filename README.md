@@ -1,5 +1,8 @@
-DayZ Duel Admin Debug Monitor
+![Logo](http://i45.tinypic.com/30rp5qx.jpg)<br />
+
+##DayZ Duel Admin Debug Monitor
 =============================
+* V1.1
 
 The DayZ Duel Admin Debug Monitor gives admins a special extended debug monitor while giving normal players 
 the regular version (non-admin), It is kept up to date by Nomadic Hayward (aka UrbanSkaters).
@@ -10,17 +13,14 @@ I accept no responsibility for any damage or downtime this script may cuase to y
 The script has been tested and confirmed to be working by both admins and regular users on my server.
 If you do not understand any of my instructions below, then please contact me: urbanskaters@gmail.com
 
-UPDATE: Both versions have been tested by admins and regular users and confirmed to be working.
+##Version requirements
 
+This debug montitor has been tested with Chernarus DayzCode V1.7.6.1
+I cannot gaurantee that it will work with any other version, though it should work with other maps.
 
+##Instructions
 
-These instructions assume you already know how to unpack your mission.pbo, if not please Google for more information.
-
-######
-
-Instructions
-
-######
+NB: These instructions assume you already know how to unpack your mission.pbo, if not please Google for more information.
 
 First things first, merge the included init.sqf with your own mission init.sqf file (remember to do the Instance Number). 
 
@@ -41,8 +41,8 @@ And change the UIDs to those of yours and your admin(s).
 To add more UIDS simply put a comma at the end of the last UID and add a UID in brackets..
 So adding a new UID to the above example would look like this ["11111","22222","33333"]
 
-#######
 
+##More Info:
 
 If you want to see what the non-admin debug monitor looks like, then simply ommit your UID from the list.  
 Only UID's listed will get the Admin debug monitor. Either SCRL+LCK or the H key should bring it up. 
@@ -53,6 +53,6 @@ If you feel brave and want to try new variables, then visit (for a list of usefu
 http://community.bistudio.com/wiki/Category:Scripting_Commands_ArmA2
 Unfortunately I can't provide support for any changes you make to this script.  
 
-######
+##Credits:
 
 Credit to P1-Kashwak for letting me modify and republish his original project :)
