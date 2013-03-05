@@ -141,7 +141,7 @@ http://opendayz.net/index.php?threads/dayz-debug-monitor.8256/
 
 Hayward is a WordPress consultant, IT Lecturer and Charity Worker living in London.  He calls himself Nomadic
 Hayward because that's where his life is heading, he has long since given up doing anything just for the money 
-and now focuses on charity work, teaching people how to set up websites for free, tinkering with code and planning 
+and now focuses on charity work, teaching people how to set up websites, tinkering with code and planning 
 his escape in 2015 when his Nomadic lifestyle should be well underway.  He believes in open source projects with a 
 real passion and feels that people shouldn't need to charge for doing the things they love doing, as this takes away 
 from the pleasure of doing it.  He accepts his own faults but dislikes others who can't do the same! 
