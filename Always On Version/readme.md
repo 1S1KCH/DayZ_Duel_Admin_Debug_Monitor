@@ -16,7 +16,8 @@
 * Add this line:<br/>
 <code> player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";</code>
 <br/><br/>
-That's all you need to edit in your init.sqf, after you've made those changes that part of the document should look something like this:
+That's all you need to edit in your init.sqf, after you've made those changes to<br/>
+that part of the document should look something like this:
 <br/><br/>
 <pre><code> //Load in compiled functions
   //call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
