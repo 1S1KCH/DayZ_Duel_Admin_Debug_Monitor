@@ -4,13 +4,13 @@
 * Locate the //Load in Compiled functions and comment out the following line:<br/>
  <code> call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functionscall</code>
 * So it looks like ths:<br/>
-  // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";  			//Compile regular functions<br/>
+ <code> // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";  			//Compile regular functions</code>
 * Then right underneath add this line:<br/>
-  call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regular functions<br/>
+  <code> call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regular functions</code>
 * Right after this line:<br/>
-  "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";<br/>
+  <code> "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";</code>
 * Add this line:<br/>
-  playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";
+  <code> playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";</code>
 <br/><br/>
   That's all you need to edit in your init.sqf, after you've made those changes<br/>that part of the document should look something like this:
 <br/><pre><code>  //Load in compiled functions
