@@ -13,7 +13,7 @@ call compile preprocessFileLineNumbers "debug\compiles.sqf";				//Compile regula
 playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";
 <br/><br/>
 That's all you need to edit in your init.sqf, after you've made those changes that part of the document should look something like this:
-<br/>
+<br/><font color="#008000">
 <br/>//Load in compiled functions
 <br/>call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\variables.sqf";				//Initilize the Variables (IMPORTANT: Must happen very early)
 <br/>progressLoadingScreen 0.1;
@@ -27,4 +27,4 @@ That's all you need to edit in your init.sqf, after you've made those changes th
 "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
 <br/><br/>
 playerstats = compile preprocessFileLineNumbers "debug\playerstats.sqf";
-<br/><br/>
+<br/><br/></font>
