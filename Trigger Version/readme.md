@@ -1,7 +1,7 @@
 ##Detailed instructions for editing your init.sqf file (Trigger Version)
 
 * This is what you need to edit YOUR mission init.sqf file, although you could just copy and paste the one provided in this folder...<br/>
-* Locate the //Load in Compiled functions and comment out the following line:<br/>
+* Locate the //Load in Compiled functions line and just below comment out the following line:<br/>
  <code> call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";				//Compile regular functionscall</code>
 * So it looks like ths:<br/>
  <code> // call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";  			//Compile regular functions</code>
