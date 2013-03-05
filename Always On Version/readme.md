@@ -31,3 +31,7 @@ That's all you need to edit in your init.sqf, after you've made those changes th
   progressLoadingScreen 1.0;
   "filmic" setToneMappingParams [0.153, 0.357, 0.231, 0.1573, 0.011, 3.750, 6, 4]; setToneMapping "Filmic";
   player_spawn_2 = compile preprocessFileLineNumbers "debug\player_spawn_2.sqf";</code></pre>
+
+<br/><br/>
+Don't forget to change your Instance number (at the top of your init file).
+<br/><br/>
